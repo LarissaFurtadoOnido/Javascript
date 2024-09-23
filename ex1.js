@@ -10,18 +10,19 @@ Operação: Multiplicação
 Exemplo de Saída:
 Resultado: 50 */
 
-/*function calculadora(num1, num2, operacao){
+function calculadora(num1, num2, operacao){
     if (operacao == '+'){
-        return num1 + num2;
+        return num1 + num2
     }else if(operacao == '-'){
-        return num1 - num2;
+        return num1 - num2
     }else if(operacao == '*'){
-        return num1 * num2;
+        return num1 * num2
     }else{
-        return num1 / num2;
+        return num1 / num2
     }
 }
-console.log(calculadora(1, 2, "+"))
-*/
+
+console.log(calculadora(2, 2, "/"))
+
 
 
