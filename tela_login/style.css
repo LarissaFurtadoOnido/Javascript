@@ -20,7 +20,7 @@
 }
 
 #senha{
-    margin: 15px;
+    margin: 15px 0px 5px 0px;
 }
 
 .container input{
@@ -55,9 +55,29 @@
     background-color: rgb(116, 226, 175);
     border-radius: 20px;
     width: 300px;
-    height: 200px;
+    height: 225px;
     padding-top: 20px;
     margin-top: 200px; 
     margin-left: 38vw; 
+}
+
+#mensagem{
+    color: red;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    width: 100%;
+    margin: 0px 0px 7px 62px;
+}
+
+dialog::backdrop{
+    backdrop-filter: blur(2px);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
 }
 
